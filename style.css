@@ -20,7 +20,8 @@ margin: auto;
 
 #logo{
 	background-image: url('./img/text.png');
-	background-size: 100% auto;
+	background-size: 96% auto;
+	background-repeat: no-repeat;
 width: 100%;
 height: 160px;
 }
@@ -45,7 +46,7 @@ ul#menu li{
 display: inline-block;
 
 width: 253px;
-height: 434px;
+height: 389px;
 	margin-right: 50px;
 	list-style: none;
 
@@ -54,18 +55,27 @@ ul#menu li img{
 width: 214px;
 float: left;
 position: relative;
+top: 298px;
 }
 
 ul#menu li span{
 	text-align: center;
 	text-decoration: none;
-	font-size: 35px;
+	font-size: 29px;
 display: inline-block;
 position: relative;
-top: 263px;
+top: 217px;
 width: 200px;
  font-family: timeLapsusFont;
  text-transform: uppercase;
+ color: #1E1B1E;
+
+}
+
+
+ul#menu li.ui-state-hover span, ul#menu li.ui-state-active span {
+text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+color: #292929;
 }
 
 ul#menu li.aabout{
@@ -76,11 +86,12 @@ background: url('./img/menu-0-0.png') no-repeat scroll 0 0 ;
 
 ul#menu li.aabout img{
 left: 35px;
-top: 347px;
+ top: 303px
 
 }
 ul#menu li.aabout span{
-left: 36px;
+ left: 36px;
+    top: 219px;
 }
 
 
@@ -94,24 +105,22 @@ width: 196px;
 
 ul#menu li.adownload img{
 left: -6px;
-top: 347px;
 
 }
 ul#menu li.adownload span{
 left: -1px;
-font-size: 33px;
+
 }
 
 ul#menu li.acontact{
 background: url('./img/menu-2-0.png') no-repeat scroll 0 0 ;
-	background-size: 100% auto;
+	background-size: 89% auto;
 	background-position: bottom;
 
 }
 
 ul#menu li.acontact img{
 left: 6px;
-top: 347px;
 
 }
 ul#menu li.acontact span{
@@ -119,7 +128,7 @@ left: 13px;
 }
 
 div#content{
-	margin-top: 40px;
+	margin-top: 67px;
 }
 
 div#content div{
