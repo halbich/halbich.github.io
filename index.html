@@ -2,25 +2,58 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="style.css">
 <title>Time Lapsus</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+
+
 </head>
 <body>
 <div id="main">
 <div id="logo"></div>
 
+
+
+
+
+
+
+<div id="tabs">
+  <ul id="menu">
+    <li class="aabout"><a href="#about"><img src="./img/menu-0-1.png"> </img><span>O hře</span></a></li>
+    <li class="adownload"><a href="#download"><img src="./img/menu-1-1.png"> </img><span>Ke stažení</span></a></li>
+    <li class="acontact"><a href="#contact"><img src="./img/menu-2-1.png"> </img><span>Kontakt</span></a></li>
+  </ul>
+  <div id="content">
+  <div id="about">
+    
 <h1> Time Lapsus</h1>
-je point&click adventura ve stylu Lucas Arts se zaměřením na cestováním v čase
+<p>je point&click adventura ve stylu Lucas Arts se zaměřením na cestováním v čase</p>
 
 <h1> Autoři</h1>
-<b>Pavel Halbich</b> - hlavní programátor <br />
+<p><b>Pavel Halbich</b> - hlavní programátor <br />
 <b>Matouš Kozma</b> - game designér, programátor <br />
 <b>Pavel Liška</b> - grafik, animátor <br />
-<b>Pavel Halbich</b> - animátor <br />
-
-<h1> Ke stažení</h1>
-
-<h1> Kontakt</h1>
+<b>Tomáš Červený</b> - animátor</p>
+  </div>
+  <div id="download">
+   <h1> Ke stažení</h1>
+  </div>
+  <div id="contact">
+   <h1> Kontakt</h1>
+  </div>
+  </div>
 </div>
+
+</div>
+
+<script>
+$(function() {
+    $("#tabs").tabs();
+});
+
+</script>
+
 </body>
 </html>
